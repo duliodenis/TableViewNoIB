@@ -8,4 +8,4 @@ This was written to complement a blog entry at [[[Cocoa alloc] init]](http://coc
 ## Tags
 In order to highlight the stages of the blog entry tags are utilized.<br>
 v1.0: baseline implementation demonstrating minimum required.<br>
-v2.0: sample tableview with a sorted array of NSNumbers.
+v2.0: sample tableview with a sorted array of NSNumbers created from a recursive factorial function.

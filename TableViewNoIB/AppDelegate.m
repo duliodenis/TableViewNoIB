@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.myViewController = [[ViewController alloc] initWithStyle:UITableViewCellStyleDefault];
+    self.myViewController = [[ViewController alloc] initWithStyle:UITableViewStyleGrouped];
     self.window.rootViewController = self.myViewController;
     
     self.window.backgroundColor = [UIColor whiteColor];
